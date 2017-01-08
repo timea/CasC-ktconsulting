@@ -1,0 +1,16 @@
+{
+   "name": "olhus_db",
+   "description": "Installs the database of Amager Ølhus.",
+   "json_class": "Chef::Role",
+   "default_attributes": {
+     "chef_client": {
+     }
+   },
+   "override_attributes": {
+   },
+   "chef_type": "role",
+   "run_list": ["recipe[olhus_db::default]"
+   ],
+   "env_run_lists": {
+   }
+}
